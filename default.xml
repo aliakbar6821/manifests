@@ -4,14 +4,13 @@
    <!-- Remote -->
    <remote name="lab" fetch="https://gitgud.io/"/>
    <remote name="gh" fetch="https://github.com"/>
+   <remote name="gl" fetch="https://gitlab.com"/>
    <remote name="bit" fetch="https://codeberg.org/"/>
   
    <!-- Trees -->
-   <project path="device/samsung/a70q" name="LineageOS/android_device_samsung_a70q" remote="gh" revision="lineage-21" clone-depth="1"/>
-   <project path="kernel/samsung/sm6150" name="LineageOS/android_kernel_samsung_sm6150" remote="gh" revision="lineage-21" clone-depth="1"/>
-   <project path="device/samsung/sm6150-common" name="LineageOS/android_device_samsung_sm6150-common" remote="gh" revision="lineage-21" clone-depth="1"/>
-   <project path="vendor/samsung/a70q" name="a70q-lineage/proprietary_vendor_samsung_a70q" remote="gh" revision="lineage-21" clone-depth="1"/>
-   <project path="vendor/samsung/sm6150-common" name="a70q-lineage/proprietary_vendor_samsung_sm6150-common" remote="gh" revision="lineage-21" clone-depth="1"/>
-   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="gh" revision="lineage-21" clone-depth="1"/>
+   <project path="device/motorola/cancunf" name="sarthakroy2002/device_motorola_cancunf" remote="gh" revision="sixteen" clone-depth="1"/>
+   <project path="kernel/motorola/cancunf" name="sarthakroy2002/device_motorola_cancunf-kernel" remote="gh" revision="sixteen" clone-depth="1"/>
+   <project path="vendor/motorola/cancunf" name="sarthakroy2002/vendor_motorola_cancunf" remote="gh" revision="sixteen" clone-depth="1"/>
+   <project path="vendor/motorola/cancunf-motcamera" name="sarthakroy2002/vendor_motorola_cancunf-motcamera" remote="gl" revision="master" clone-depth="1"/>
    
 </manifest>
