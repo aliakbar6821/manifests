@@ -1,1 +1,1 @@
-git clone -b rtd_a70q https://github.com/LynxSlash/manifests .repo/local_manifests
+git clone -b cancunf https://github.com/LynxSlash/manifests .repo/local_manifests
